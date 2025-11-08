@@ -99,12 +99,6 @@ Commands:
   version         Show the currently installed version of MVT
 ```
 
-## Mobile Device Marketshare
-
-A chart showing the mobile device marketshare.  
-
-<div id="mobile_vendor-ww-monthly-202410-202510" width="600" height="400" style="width:600px; height: 400px;"></div><!-- You may change the values of width and height above to resize the chart --><p>Source: <a href="https://gs.statcounter.com/vendor-market-share/mobile">StatCounter Global Stats - Device Vendor Market Share</a></p><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?mobile_vendor-ww-monthly-202410-202510&chartWidth=600"></script>
-
 ## What I Learned
 
 I learned
