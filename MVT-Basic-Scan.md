@@ -80,7 +80,10 @@ For stalkerware-specific IOCs, additional repos like https://github.com/AmnestyT
 After scanning, MVT creates JSON files in your output folder (`-o results/`).
 
 ```bash
+cd /home/user/.local/share/mvt/indicators/results
 dir
+```
+```
 command.log		      dumpsys_dbinfo.json     packages.json
 dumpsys_accessibility.json    dumpsys_receivers.json  processes.json
 dumpsys_activities.json       dumpsys.txt	      selinux_status.json
