@@ -26,7 +26,7 @@ Verify that group membership lists `plugdev`:
 Change to the MVT installation directory:
 
 ```bash
-cd /home/user/.local/share/pipx/venvs/mvt/indicators
+cd /home/user/.local/share/pipx/venvs/mvt
 ```
 
 MVT uses STIX files for known spyware signatures. Download the latest public ones automatically:
