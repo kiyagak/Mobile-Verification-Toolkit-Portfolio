@@ -60,7 +60,7 @@ mvt-ios --help
 mvt-android --help
 ```
 
-- `mvt-ios --help`
+- `mvt-android --help`
 
 ```
 mvt-android --help
@@ -80,7 +80,7 @@ Commands:
   version          Show the currently installed version of MVT
 ```
 
-- `mvt-android --help`
+- `mvt-ios --help`
 
 ```
  mvt-ios --help
