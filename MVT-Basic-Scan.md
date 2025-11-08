@@ -4,9 +4,9 @@ MVT scans for **public Indicators of Compromise (IOCs)** from known spyware like
 
 ## Download Public Indicators of Compromise (IOCs)
 
-Open the Terminal.  
+1. Open the Terminal.  
 
-Add the current user (represented by the `$USER` environment variable) to the `plugdev` supplementary group on Linux systems, without removing them from any existing groups (due to the `-a` for "append" and `-G` for supplementary groups).  This is needed because:
+2. Add the current user (represented by the `$USER` environment variable) to the `plugdev` supplementary group on Linux systems, without removing them from any existing groups (due to the `-a` for "append" and `-G` for supplementary groups).  This is needed because:
 
 - MVT's iOS and Android modules often need direct USB access to a connected device.
 - On Linux, USB device nodes are usually limited to root or specific groups for security.
@@ -17,19 +17,19 @@ Add the current user (represented by the `$USER` environment variable) to the `p
 sudo usermod -aG plugdev $USER
 ```
 
-**Log out and log back in** (or reboot) for the group change to take effect in your session. 
+3. **Log out and log back in** (or reboot) for the group change to take effect in your session. 
 
-Verify that group membership lists `plugdev`:
+4. Verify that group membership lists `plugdev`:
 
 `groups`
 
-Change to the MVT installation directory:
+5. Change to the MVT installation directory:
 
 ```bash
 cd /home/user/.local/share/pipx/venvs/mvt
 ```
 
-MVT uses STIX files for known spyware signatures. Download the latest public ones automatically:
+6. Automatically download the latest public STIX files for known spyware signatures:
 
 ```bash
 mvt-ios download-iocs
